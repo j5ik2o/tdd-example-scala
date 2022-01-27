@@ -2,6 +2,9 @@ package tdd
 
 import org.scalatest.freespec.AnyFreeSpec
 
+/**
+ * https://gist.github.com/twada/75fb219c8cc180e9de166d8a58e877b0
+ */
 class ClosedRangeSpec extends AnyFreeSpec {
 
   "下限と上限を保持できる" - {
