@@ -3,7 +3,7 @@ package tdd
 final case class ClosedRange(lower: Int, upper: Int) {
   require(lower <= upper, lower + " is not before or equal to " + upper)
 
-  def asString = s"[$lower,$upper]"
+  def asString: String = s"[$lower,$upper]"
 
   def includes(value: Int): Boolean = lower <= value && value <= upper
 
